@@ -55,5 +55,15 @@ def add_releases_to_playlist(playlist_id, releases):
 
 # Main execution
 if __name__ == "__main__":
-    followed_artist_ids = get_followed_artists()  # Get the list of followed artist browseIds
+    followed_artist_ids = get_followed_artists()
 
+    for artist_id in followed_artist_ids:
+        artist = ytmusic.get_artist(artist_id)
+        print(f"Creating playlist for {artist['name']}...")
+
+        releases = get_artist_releases(artist_id)
+        playlist_id = create_playlist_for_artist(artist)
+
+        add_releases_to_playlist(playlist_id, releases)
+
+        print(f"Playlist created for {artist['name']}!")
