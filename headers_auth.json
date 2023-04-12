@@ -1,0 +1,5 @@
+{
+    "cookie": "YOUR_COOKIE_VALUE",
+    "x-goog-authuser": "YOUR_X_GOOG_AUTHUSER_VALUE",
+    "x-goog-visitor-id": "YOUR_X_GOOG_VISITOR_ID_VALUE"
+}
