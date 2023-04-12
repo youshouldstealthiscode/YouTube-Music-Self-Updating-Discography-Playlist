@@ -18,7 +18,7 @@ INSTRUCTIONS
 
 To create a program that does this using the YTMusic API, you'll first need to install the ytmusicapi Python library, which you can do with the following command:
 
-pip install ytmusicapi
+`pip install ytmusicapi`
 
 Next, you'll need to authenticate with the YTMusic API. You can follow the steps in the documentation to set up the headers_auth.json file: https://ytmusicapi.readthedocs.io/en/latest/setup.html
 
@@ -65,7 +65,4 @@ Replace YOUR_COOKIE_VALUE, YOUR_X_GOOG_AUTHUSER_VALUE, and YOUR_X_GOOG_VISITOR_I
 
 I have added such a file with that exact code to the repo so you just have to find your necessary variables and insert them accordingly.
 
-!!!Keep in mind that the "cookie" value may expire, so you might need to repeat this process in the future to obtain a new "cookie" value.!!
-
-
-added these words as a test for my git control
+!!!!!Keep in mind that the "cookie" value may expire, so you might need to repeat this process in the future to obtain a new "cookie" value.!!!!!
